@@ -21,7 +21,10 @@ body {
 .output {
   grid-column: 1 / -1;
   background-color: #1f2641;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .output .previous-operand {
